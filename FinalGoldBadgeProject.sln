@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cafe", "FinalGoldBadgeProject\Cafe.csproj", "{3D0CF938-884C-49DC-8BB1-A23336E8DA87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims Dept", "Claims Dept\Claims Dept.csproj", "{3F28F661-0FAA-4B4F-A107-F386C267B2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company Badges", "Company Badges\Company Badges.csproj", "{443EE2EB-96CA-4E46-83F1-E2753B00E443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafePattern_Test", "CafePattern_Test\CafePattern_Test.csproj", "{B0213B9F-EF09-4689-A9C0-820F093D4837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsDept_repository", "ClaimsDept_repository\ClaimsDept_repository.csproj", "{2D3D2444-E12A-44FE-82CE-0F15EF140CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsDept_test", "ClaimsDept_test\ClaimsDept_test.csproj", "{E6CA1836-6481-4AB4-AF72-8BBC35295169}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D0CF938-884C-49DC-8BB1-A23336E8DA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0CF938-884C-49DC-8BB1-A23336E8DA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0CF938-884C-49DC-8BB1-A23336E8DA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0CF938-884C-49DC-8BB1-A23336E8DA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F28F661-0FAA-4B4F-A107-F386C267B2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F28F661-0FAA-4B4F-A107-F386C267B2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F28F661-0FAA-4B4F-A107-F386C267B2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F28F661-0FAA-4B4F-A107-F386C267B2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443EE2EB-96CA-4E46-83F1-E2753B00E443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443EE2EB-96CA-4E46-83F1-E2753B00E443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443EE2EB-96CA-4E46-83F1-E2753B00E443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443EE2EB-96CA-4E46-83F1-E2753B00E443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0213B9F-EF09-4689-A9C0-820F093D4837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0213B9F-EF09-4689-A9C0-820F093D4837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0213B9F-EF09-4689-A9C0-820F093D4837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0213B9F-EF09-4689-A9C0-820F093D4837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3D2444-E12A-44FE-82CE-0F15EF140CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3D2444-E12A-44FE-82CE-0F15EF140CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3D2444-E12A-44FE-82CE-0F15EF140CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3D2444-E12A-44FE-82CE-0F15EF140CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6CA1836-6481-4AB4-AF72-8BBC35295169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6CA1836-6481-4AB4-AF72-8BBC35295169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6CA1836-6481-4AB4-AF72-8BBC35295169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6CA1836-6481-4AB4-AF72-8BBC35295169}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {704D9E09-F9C5-42CC-84FB-37E9CE44CD68}
+	EndGlobalSection
+EndGlobal
