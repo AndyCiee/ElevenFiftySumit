@@ -20,7 +20,7 @@ namespace FinalGoldBadgeProject
 
             _MenuDirectory.Add(content);
 
-            if (_MenuDirectory.Count() == MenuDirectoryCount + 1)
+            if (_MenuDirectory.Count() == MenuDirectoryCount ++ )
             {
                 return true;
             }
@@ -35,37 +35,31 @@ namespace FinalGoldBadgeProject
             return _MenuDirectory;
         }
 
-        public MenuItem GetItemByTitle(string title)
-        {
-            foreach (MenuItem item in _MenuDirectory)
-            {
-                if (item.Title== item)
-                {
-                    return item;
-                }
-            }
-        }
-        
-        //Update
-        public void UpdateMenuItemDescription(string item, string description)
-        {
-            MenuItem content = GetItemByTitle(item);
-
-            content.Description = description;
-        }
+   
 
         //Delete
 
         public bool DeleteExistingItem(MenuItem content)
         {
-            return _MenuDirectory.Remove(content);
+            bool deleteItem = _MenuDirectory.Remove(content);
+            return deleteItem;
         }
 
-        public bool DeleteItemByTItle(title)
+        //Just A Little Help
+        public MenuItem GetMealNumber(int mealNum)
         {
-            MenuItem content = GetItemByTitle(title);
-
-            return DeleteExistingItem(content);
+            //this is a loop to search through all items inthe  menu
+            //to find one that has a meal number property that matches the 
+            //mealNum variable that the user gives
+            foreach (MenuItem item in _MenuDirectory)
+            {
+                if (item.MealNumber == mealNum)
+                {
+                    return item;
+                }
+            }
+        return null;
         }
+
     }
 }

@@ -1,0 +1,2 @@
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\ClaimsDept_repository\obj\Debug\ClaimsDept_repository.csproj.CoreCompileInputs.cache
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\ClaimsDept_repository\obj\Debug\ClaimsDept_repository.csprojAssemblyReference.cache

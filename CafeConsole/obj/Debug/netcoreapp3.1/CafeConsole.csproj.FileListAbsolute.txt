@@ -1,0 +1,4 @@
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeConsole\obj\Debug\netcoreapp3.1\CafeConsole.csprojAssemblyReference.cache
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeConsole\obj\Debug\netcoreapp3.1\CafeConsole.AssemblyInfoInputs.cache
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeConsole\obj\Debug\netcoreapp3.1\CafeConsole.AssemblyInfo.cs
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeConsole\obj\Debug\netcoreapp3.1\CafeConsole.csproj.CoreCompileInputs.cache

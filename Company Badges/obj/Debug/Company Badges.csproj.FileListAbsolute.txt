@@ -1,0 +1,6 @@
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\Company Badges\bin\Debug\Company Badges.exe.config
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\Company Badges\bin\Debug\Company Badges.exe
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\Company Badges\bin\Debug\Company Badges.pdb
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\Company Badges\obj\Debug\Company Badges.csproj.CoreCompileInputs.cache
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\Company Badges\obj\Debug\Company Badges.exe
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\Company Badges\obj\Debug\Company Badges.pdb

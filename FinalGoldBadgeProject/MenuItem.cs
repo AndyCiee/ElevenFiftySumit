@@ -12,45 +12,22 @@ namespace FinalGoldBadgeProject
 
         public MenuItem() { }
 
-        public MenuItem(Item item)
+        public MenuItem(int mealNumber, string mealName,string description, string ingredients, decimal price)
         {
-            Item = item;
-        }
-
-        public MenuItem(Item item, string description)
-        {
-            Item = item;
+            MealNumber = mealNumber;
+            MealName = mealName;
             Description = description;
-           
-        }
-        public Item Item { get; set; }
-        public string Description { get; set; }
-        public decimal Price
-        {
-            get{
-            switch (Item)
-                {
-                    case (Item)1: return 10.50m;
-                    case (Item)2: return 8.75m;
-                    case (Item)3: return 9.00m;
-                    case (Item)4: return 5.50m;
-                    case (Item)5: return 3.25m;
-                    case (Item)6: return 1.50m;
-                }
+            Ingredients = ingredients;
+            Price = price;
 
-                return 0;
-            }
-        }
-    }
-    public enum Item
-    {
-        Bread = 1,
-        Cake,
-        Donuts,
-        Pasteries,
-        Muffins,
-        Coffee
-    }
-   
+        }  
+        
+        public int MealNumber { get; set; }
+        public string MealName { get; set; }
+        public string Description { get; set; }
+        public string Ingredients { get; set; }
+        public decimal Price { get; set;  }
+        
+        
     }
 }

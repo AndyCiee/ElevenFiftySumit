@@ -1,0 +1,13 @@
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\bin\Debug\netcoreapp3.1\CafeUI.exe
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\bin\Debug\netcoreapp3.1\CafeUI.deps.json
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\bin\Debug\netcoreapp3.1\CafeUI.runtimeconfig.json
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\bin\Debug\netcoreapp3.1\CafeUI.runtimeconfig.dev.json
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\bin\Debug\netcoreapp3.1\CafeUI.dll
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\bin\Debug\netcoreapp3.1\CafeUI.pdb
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\obj\Debug\netcoreapp3.1\CafeUI.csprojAssemblyReference.cache
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\obj\Debug\netcoreapp3.1\CafeUI.AssemblyInfoInputs.cache
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\obj\Debug\netcoreapp3.1\CafeUI.AssemblyInfo.cs
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\obj\Debug\netcoreapp3.1\CafeUI.csproj.CoreCompileInputs.cache
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\obj\Debug\netcoreapp3.1\CafeUI.dll
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\obj\Debug\netcoreapp3.1\CafeUI.pdb
+C:\Users\andra\ElevenFiftyProjects\GoldBadgeFinal\FinalGoldBadgeProject\CafeUI\obj\Debug\netcoreapp3.1\CafeUI.genruntimeconfig.cache

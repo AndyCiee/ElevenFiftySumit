@@ -6,32 +6,34 @@ using System.Threading.Tasks;
 
 namespace ClaimsDept_repository
 {
-    public class ClaimRepository : IClaimRepository
+    public class ClaimRepository
     {
-        private readonly List<Claim> _actorDirectory = new List<Claim>();
+        private readonly Queue<ClaimContent> _claimDirectory = new Queue<ClaimContent>();
 
-        public bool AddClaimToDirectory(Claim claim)
+        public bool AddClaimToDirectory(ClaimContent claim)
         {
+            //Enqueue will add to the queue
             int claimDirectoryCount = _claimDirectory.Count();
-            _claimDirectory.Add(claim);
+            _claimDirectory.Enqueue(claim);
 
-            if (_claimDirectory.Count()) == claimDirectoryCount + 1)
+            if (_claimDirectory.Count() == claimDirectoryCount ++)
             {
-                return true; 
+                return true;
             }
             return false;
         }
 
-        public List<Claim> GetAllClaims()
+        public Queue<ClaimContent> GetAllClaims()
         {
             return _claimDirectory;
         }
 
+        //Fix This
         public ClaimRepository GetClaimById(int id)
         {
-            foreach(var claim in _claimDirectory)
+            foreach (var claim in _claimDirectory)
             {
-                if(claim.Id == id)
+                if (claim.Id == id)
                 {
                     return claim;
 
@@ -41,10 +43,10 @@ namespace ClaimsDept_repository
             return null;
 
         }
-
+        //Fix This
         public bool DeleteClaimByID(int id)
         {
-            Claim claim = GetClaimById(id);
+            ClaimContent claim = GetClaimById(id);
 
             if (claim != null)
             {
@@ -52,14 +54,17 @@ namespace ClaimsDept_repository
             }
             return false;
         }
-
-        public bool DeleteExisitingClaim(Claim claim)
+        //Fix This
+        private bool DeleteExistingClaim(ClaimContent claim)
         {
+            throw new NotImplementedException();
+        }
+
+        public bool DeleteExisitingClaim(ClaimContent claim)
+        {
+            //Use Dequeue to remove from queue
             return _claimDirectory.Remove(claim);
         }
-    }
 
-    
-       
-    
+    }
 }

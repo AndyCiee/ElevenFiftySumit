@@ -9,12 +9,25 @@ namespace ClaimsDept_repository
  //POCO
     public class ClaimContent
     {
+        public enum ClaimType
+        {
+            Home,
+            Car,
+            Theft
+        }
         public ClaimContent() { }
 
-        public ClaimContent(string claim)
-        {
-            Claim = claim;
-        }
+        //public ClaimContent(string claim)
+        //{
+        //    Claim = claim;
+        //}
+        public int ClaimID { get; set; }
+        public ClaimType Claim { get; set; }
+        public string Description { get; set; }
+        public double ClaimAmount { get; set; }
+        public DateTime IncidentDate { get; set; }
+        public DateTime ClaimDate { get; set; }
+        public bool IsValid { get; set; }
 
         public ClaimContent(int claimId, ClaimType claim, string description,double claimAmount, DateTime DateOfIncident, DateTime dateOfClaim, bool valid)
         {
@@ -26,30 +39,17 @@ namespace ClaimsDept_repository
             ClaimDate = dateOfClaim;
             IsValid = valid;
         }
-        public int ClaimID { get; set; }
-        public ClaimType Claim { get; set; }
-        public string Description { get; set; }
-        public double ClaimAmount { get; set; }
-        public DateTime IncidentDate { get; set; }
-        public DateTime ClaimDate { get; set; }
-        public bool IsValid { get; set; }
         
     }
-        public enum ClaimType
-        {
-            Home,
-            Car,
-            Theift
-        }
-    public bool IsValid
-    {
-        if (true)
-         {
-            Console.WriteLine("Valid");
-        }
-        else (false)
-        {
-            Console.WriteLine("InValid");
-        }
-    }
+    //public bool IsValid
+    //{
+    //    if (true)
+    //     {
+    //        Console.WriteLine("Valid");
+    //    }
+    //    else (false)
+    //    {
+    //        Console.WriteLine("InValid");
+    //    }
+    //}
 }
